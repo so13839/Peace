@@ -1,4 +1,5 @@
 library(shiny)
+library(readr)
 model <- readRDS("model.RDS")
 # Server
 server <- function(input, output) {
